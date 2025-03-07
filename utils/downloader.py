@@ -9,7 +9,7 @@ from torchvision.tv_tensors import Image, BoundingBoxes
 import rasterio
 import numpy as np
 
-base_url = 'https://cloud-api.yandex.net/v1/disk/public/resources/download?'  # Yandex Disk API URL
+base_url = 'https://cloud-api.yandex.net/v1/disk/public/resources/download?'
 
 
 def get_demo(image_url: str, annotation_url: str, image_size: int) -> tuple[Image | Tensor, dict]:
