@@ -60,15 +60,18 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.conda
 
 # Cython debug symbols
 cython_debug/
 
-# GigaIDE and JupyterLab
+# VSCode and JupyterLab
 .idea/
+.vscode
 .jupyter/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+.virtual_documents/
 
 # IPython
 profile_default/
