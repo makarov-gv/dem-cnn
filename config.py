@@ -6,8 +6,6 @@ MLFLOW_URI = 'http://localhost:5000'  # URI for MLflow tracking server
 MLFLOW_MODEL = 'models:/dem_cnn@test'  # URI for MLflow latest test-suitable DEM CNN model
 
 STATE_DICT = True  # save/load model's state dictionary (preferred), pickle/unpickle it otherwise
-DEMO_IMAGE = 'https://disk.yandex.ru/i/EvT4NjdKFk6UCw'  # Yandex Disk URL to demo image for inference
-DEMO_ANNOTATION = 'https://disk.yandex.ru/i/xiO7VydTbYLEqA'  # Yandex Disk URL to demo annotation for inference
 SCORE_THRESHOLD = 0.8  # minimum score (confidence) threshold value
 IOU_THRESHOLD = 0.2  # intersection over union (IoU) threshold value
 
